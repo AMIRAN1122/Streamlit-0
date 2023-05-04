@@ -14,7 +14,7 @@ RUN bash -c 'echo -e "\
 email = \"\"\n\
 " > /root/.streamlit/credentials.toml'
 
-EXPOSE 8501
+EXPOSE 80
 
 COPY . .
 
