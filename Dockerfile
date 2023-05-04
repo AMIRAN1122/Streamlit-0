@@ -13,11 +13,6 @@ RUN bash -c 'echo -e "\
 [general]\n\
 email = \"\"\n\
 " > /root/.streamlit/credentials.toml'
-RUN bash -c 'echo -e "\
-[server]\n\
-enableCORS = true\n\
-server.enableXsrfProtection=false\n\
-" > /root/.streamlit/config.toml'
 
 # exposing default port for streamlit
 EXPOSE 8501
