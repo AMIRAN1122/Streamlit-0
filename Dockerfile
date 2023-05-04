@@ -18,4 +18,4 @@ EXPOSE 80
 
 COPY . .
 
-CMD [ "streamlit", "run", "red.py", "--server.port", "80"]
+CMD [ "streamlit", "run", "red.py", "--server.port 80"]
