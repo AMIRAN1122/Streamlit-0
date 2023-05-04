@@ -13,6 +13,10 @@ RUN bash -c 'echo -e "\
 [general]\n\
 email = \"\"\n\
 " > /root/.streamlit/credentials.toml'
+RUN bash -c 'echo -e "\
+[server]\n\
+enableCORS = false\n\
+" > /root/.streamlit/config.toml'
 
 EXPOSE 80
 
