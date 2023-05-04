@@ -23,4 +23,4 @@ EXPOSE 80
 
 COPY . .
 
-CMD [ "streamlit", "run", "Red.py"]
+CMD [ "streamlit", "run", "red.py"]
