@@ -19,7 +19,7 @@ enableCORS = false\n\
 " > /root/.streamlit/config.toml'
 
 # exposing default port for streamlit
-EXPOSE 80
+EXPOSE 8501
 
 COPY . .
 
